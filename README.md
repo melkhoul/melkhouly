@@ -1,24 +1,18 @@
-# Mohamed Elkhouly Portfolio — GitHub Pages V1
+# Mohamed Elkhouly Portfolio — V2
 
-## Site structure
-- `index.html` — My Story + Questions I've Worked On
-- `try.html` — interactive AI Adoption & Transformation diagnostic prototype
-- `about.html` — bio, public thinking and credentials
-- `css/style.css` — all visual styling
-- `js/main.js` — click-to-reveal behavior
-- `js/diagnostic.js` — diagnostic prototype logic
+## Architecture
+- `index.html` — **My Story**: six visible, connected career chapters.
+- `questions.html` — **Questions I've Worked On**: seven flip cards; click a card to reveal the narrative.
+- `try.html` — **Try It**: framework/template library (no adoption questionnaire).
+- `about.html` — bio, public thinking and credentials.
+- `css/style.css` — shared visual design.
+- `js/questions.js` — flip-card behavior.
+- `js/frameworks.js` — framework expand/collapse behavior.
 
-## Publish on GitHub Pages
-1. Create a public repository named `YOURUSERNAME.github.io`.
-2. Upload the contents of this folder to the repository root.
-3. Commit the files.
-4. Open **Settings → Pages**.
-5. Under **Build and deployment**, select **Deploy from a branch**.
-6. Select branch **main** and folder **/(root)**, then Save.
-7. Visit `https://YOURUSERNAME.github.io` after GitHub finishes publishing.
+## Replace the current GitHub version
+The simplest method is to upload these V2 files into the root of the same GitHub repository and allow GitHub to replace files with the same names.
 
-## Before public launch
-Review all Amazon-specific content for confidentiality and publication appropriateness. Replace or sanitize internal names, metrics, process details or other information as needed.
+Important: V2 adds `questions.html`, `js/questions.js`, and `js/frameworks.js`. The old `js/main.js` and `js/diagnostic.js` are no longer used and may be deleted after V2 is live.
 
-## Editing
-The site intentionally uses plain HTML/CSS/JavaScript so it can be edited without a framework or build system.
+## Public-launch review
+Review Amazon-specific names, internal process details and metrics for confidentiality/publication appropriateness before treating the site as a public professional portfolio.
